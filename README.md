@@ -8,40 +8,39 @@ This is a bot for Discord that tells you when a new YouTube video is up or when 
 
 here’s the file stuff:
 
-```
+```md
 .
-├── .gitignore
-├── README.md
-├── requirements.txt
+├── [\*.gitignore](./.gitignore)
+├── [README.md](./README.md)
+├── [requirements.txt](./requirements.txt)
 │
 ├── config
-│   └── .env
+│ └── [.env](./config/.env)
 │
 ├── logs
-│   └── bot.log
+│ └── [bot.log](./logs/bot.log)
 │
 └── src
-    ├── main.py
-    ├── utils.py
-    ├── __init__.py
-    │
-    ├── discord_rep
-    │   ├── discord_api.py
-    │   ├── discord_bot.py
-    │   └── __init__.py
-    │
-    ├── twitch
-    │   ├── twitch_api.py
-    │   ├── twitch_bot.py
-    │   ├── twitch_message_id.txt
-    │   └── __init__.py
-    │
-    └── youtube
-        ├── youtube_api.py
-        ├── youtube_bot.py
-        ├── youtube_message_id.txt
-        └── __init__.py
-
+├── [main.py](./src/main.py)
+├── [utils.py](./src/utils.py)
+├── [**init**.py](./src/__init__.py)
+│
+├── discord_rep
+│ ├── [discord_api.py](./src/discord_rep/discord_api.py)
+│ ├── [discord_bot.py](./src/discord_rep/discord_bot.py)
+│ └── [**init**.py](./src/discord_rep/__init__.py)
+│
+├── twitch
+│ ├── [twitch_api.py](./src/twitch/twitch_api.py)
+│ ├── [twitch_bot.py](./src/twitch/twitch_bot.py)
+│ ├── [twitch_message_id.txt](./src/twitch/twitch_message_id.txt)
+│ └── [**init**.py](./src/twitch/__init__.py)
+│
+└── youtube
+├── [youtube_api.py](./src/youtube/youtube_api.py)
+├── [youtube_bot.py](./src/youtube/youtube_bot.py)
+├── [youtube_message_id.txt](./src/youtube/youtube_message_id.txt)
+└── [**init**.py](./src/youtube/__init__.py)
 ```
 
 ### `.env` File in `config`
