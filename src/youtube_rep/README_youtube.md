@@ -1,4 +1,4 @@
-# README file to explain the src/youtube folder
+# README file to explain the src/youtube_rep folder
 
 ### Folder configuration:
 

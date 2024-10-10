@@ -1,6 +1,6 @@
 import time
-from twitch.twitch_bot import TwitchBot
-from youtube.youtube_bot import YoutubeBot
+from twitch_rep.twitch_bot import TwitchBot
+from youtube_rep.youtube_bot import YoutubeBot
 from utils import Logger # type: ignore
 
 def main():

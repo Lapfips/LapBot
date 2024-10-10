@@ -26,16 +26,22 @@ This is a bot for Discord that tells you when a new YouTube video is up or when 
     │   ├── discord_bot.py
     │   └── __init__.py
     │
-    ├── twitch
+    ├── twitch_rep
     │   ├── twitch_api.py
     │   ├── twitch_bot.py
     │   ├── twitch_message_id.txt
     │   └── __init__.py
     │
-    └── youtube
-        ├── youtube_api.py
-        ├── youtube_bot.py
-        ├── youtube_message_id.txt
+    ├── youtube_rep
+    │   ├── youtube_api.py
+    │   ├── youtube_bot.py
+    │   ├── youtube_message_id.txt
+    │   └── __init__.py
+    │
+    └── twitter_rep
+        ├── twitter_api.py
+        ├── twitter_bot.py
+        ├── twitter_message_id.txt
         └── __init__.py
 
 ```

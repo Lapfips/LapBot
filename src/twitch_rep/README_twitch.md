@@ -1,4 +1,4 @@
-# README file to explain the src/twitch folder
+# README file to explain the src/twitch_rep folder
 
 ### Folder configuration:
 

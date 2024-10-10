@@ -1,7 +1,6 @@
 from .twitch_api import TwitchAPI
 from discord_rep.discord_bot import DiscordBot
 from discord_rep.discord_api import DiscordAPI
-from utils import FileManager
 
 class TwitchBot:
     def __init__(self):

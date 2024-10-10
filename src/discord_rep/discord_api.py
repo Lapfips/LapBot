@@ -1,8 +1,8 @@
 import requests # type: ignore
 import os
 import discord # type: ignore
-from twitch.twitch_api import TwitchAPI # type: ignore
-from youtube.youtube_api import YoutubeAPI # type: ignore
+from twitch_rep.twitch_api import TwitchAPI # type: ignore
+from youtube_rep.youtube_api import YoutubeAPI # type: ignore
 from utils import FileManager  # type: ignore
 
 class DiscordAPI:
