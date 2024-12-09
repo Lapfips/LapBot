@@ -1,9 +1,9 @@
-import requests # type: ignore
+import requests
 import os
-import discord # type: ignore
-from twitch_rep.twitch_api import TwitchAPI # type: ignore
-from youtube_rep.youtube_api import YoutubeAPI # type: ignore
-from utils import FileManager  # type: ignore
+import discord
+from twitch_rep.twitch_api import TwitchAPI
+from youtube_rep.youtube_api import YoutubeAPI
+from utils import FileManager
 
 class DiscordAPI:
     def __init__(self):

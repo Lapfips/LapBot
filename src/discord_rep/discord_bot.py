@@ -1,5 +1,5 @@
 from .discord_api import DiscordAPI
-from utils import FileManager  # type: ignore
+from utils import FileManager
 import os
 
 class DiscordBot:
